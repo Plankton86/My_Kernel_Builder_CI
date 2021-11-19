@@ -57,7 +57,7 @@ MANUFACTURERINFO="ASUSTek Computer Inc."
 # Kernel Variant
 NAMA=Magazine-HMP
 
-KERNEL_FOR=HMP-Overclock
+KERNEL_FOR=Base-R38-NLV-HMP-Overclock
 
 JENIS=[NLV]
 
@@ -188,8 +188,8 @@ setversioning() {
 ##--------------------------------------------------------------##
 
 exports() {
-	export KBUILD_BUILD_USER="#Plankton00"
-    export KBUILD_BUILD_HOST="android-build"
+	export KBUILD_BUILD_USER="android-build"
+    export KBUILD_BUILD_HOST="Plankton00"
     export KBUILD_BUILD_VERSION="1"
 	export ARCH=arm64
 	export SUBARCH=arm64
@@ -385,7 +385,7 @@ gen_zip() {
 	sed -i "s/kernel.string=.*/kernel.string=$NAMA-$VARIAN/g" anykernel.sh
 	sed -i "s/kernel.for=.*/kernel.for=$KERNEL_FOR/g" anykernel.sh
 	sed -i "s/kernel.compiler=.*/kernel.compiler=$COMPILER/g" anykernel.sh
-	sed -i "s/kernel.made=.*/kernel.made=$KBUILD_BUILD_USER @$KBUILD_BUILD_HOST/g" anykernel.sh
+	sed -i "s/kernel.made=.*/kernel.made=PLANKTON @plankton00/g" anykernel.sh
 	sed -i "s/kernel.version=.*/kernel.version=$LINUXVER/g" anykernel.sh
 	sed -i "s/message.word=.*/message.word=don't blame me if u get poor battery backup or weak performance . i'm not responsible . Do with Your Own Risk./g" anykernel.sh
 	sed -i "s/build.date=.*/build.date=$DATE2/g" anykernel.sh
