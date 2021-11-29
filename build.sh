@@ -57,11 +57,11 @@ MANUFACTURERINFO="ASUSTek Computer Inc."
 # Kernel Variant
 NAMA=Magazine-HMP
 
-KERNEL_FOR=Base-R38-NLV-HMP-Overclock
+KERNEL_FOR=NLV-HMP-Overclock
 
 JENIS=[NLV]
 
-VARIAN=Ryzen-radeon-#1
+VARIAN=GeForce-RTX-20.70-#1
 # Build Type
 BUILD_TYPE="Nightly"
 
