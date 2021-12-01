@@ -55,13 +55,13 @@ DEFCONFIG=X00TD_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=Magazine-HMP
+NAMA=GeForce-RTX-HMP
 
 KERNEL_FOR=NLV-HMP-Overclock
 
 JENIS=[NLV]
 
-VARIAN=GeForce-RTX-20.70-#1
+VARIAN=20.70-#1
 # Build Type
 BUILD_TYPE="Nightly"
 
