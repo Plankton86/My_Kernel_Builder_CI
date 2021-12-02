@@ -189,7 +189,7 @@ setversioning() {
 
 exports() {
 	export KBUILD_BUILD_USER="android-build"
-    export KBUILD_BUILD_HOST="Plankton00"
+    export KBUILD_BUILD_HOST="Plankton86"
     export KBUILD_BUILD_VERSION="1"
 	export ARCH=arm64
 	export SUBARCH=arm64
