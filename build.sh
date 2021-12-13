@@ -55,7 +55,7 @@ DEFCONFIG=RTX_defconfig
 MANUFACTURERINFO="ASUSTek Computer Inc."
 
 # Kernel Variant
-NAMA=GeForce-RTX-HMP
+NAMA=RTX-Project-HMP
 
 KERNEL_FOR=NLV-HMP-Overclock
 
